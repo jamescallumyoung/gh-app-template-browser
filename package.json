@@ -1,0 +1,10 @@
+{
+  "name": "gh-app-template-browser",
+  "version": "0.1.0",
+  "description": "GitHub App for browsing template repositories.",
+  "main": "dist/index.js",
+  "repository": "git@github.com:jamescallumyoung/gh-app-template-browser.git",
+  "author": "James Young <hello@jamesyoung.ch>",
+  "license": "AGPL",
+  "private": true
+}
