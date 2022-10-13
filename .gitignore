@@ -1,3 +1,7 @@
+# IDEs
+/.code
+/.idea
+
 # yarn >= v2.0.0
 .pnp.*
 .yarn/*
