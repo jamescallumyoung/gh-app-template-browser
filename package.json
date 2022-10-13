@@ -6,5 +6,6 @@
   "repository": "git@github.com:jamescallumyoung/gh-app-template-browser.git",
   "author": "James Young <hello@jamesyoung.ch>",
   "license": "AGPL",
-  "private": true
+  "private": true,
+  "packageManager": "yarn@3.2.4"
 }
