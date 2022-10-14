@@ -13,6 +13,11 @@
   },
   "devDependencies": {
     "@types/node": "^18.8.5",
-    "fastify-cli": "^5.5.0"
+    "fastify-cli": "^5.5.0",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
   }
 }
