@@ -13,11 +13,12 @@
   },
   "devDependencies": {
     "@types/node": "^18.8.5",
-    "fastify-cli": "^5.5.0",
+    "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
+    "create-jwt": "echo \"console.log(require('./src/jwt/create-jwt').createJwt())\" | node -r ts-node/register --require ./src/jwt/create-jwt.ts",
     "start": "node dist/server.js"
   }
 }
