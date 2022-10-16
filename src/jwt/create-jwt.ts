@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs';
+import { readFileSync } from 'node:fs';
 import JWT from 'jsonwebtoken';
 
 const pemFilePath = "/Users/jamesyoung/gh-pem/template-browser.2022-10-13.private-key.pem"; // TODO make config
